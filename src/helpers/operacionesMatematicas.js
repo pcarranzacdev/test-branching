@@ -10,6 +10,10 @@ class Math {
   static subtraction(a, b) {
     return a - b;
   }
+
+  static division(a, b) {
+    return a / b;
+  }
 }
 
 module.exports = Math;
