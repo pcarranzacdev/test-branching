@@ -6,6 +6,10 @@ class Math {
   static multiplication(aNumbers = []) {
     return aNumbers.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
   }
+
+  static subtraction(a, b) {
+    return a - b;
+  }
 }
 
 module.exports = Math;

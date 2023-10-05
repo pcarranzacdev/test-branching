@@ -5,3 +5,6 @@ console.log(`El resultado de la suma es ${sum}`);
 
 const multiplication = Math.multiplication([4, 1]);
 console.log(`El resultado de la multiplication es ${multiplication}`);
+
+const subtraction = Math.subtraction(6, 9);
+console.log(`El resultado de la resta es ${subtraction}`);
